@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+
+}
+header{
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 20px ;
+    color: #c4c4c4;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+nav ul li:hover{
+    color:rgba(5, 139, 140, 1);
+    cursor: pointer;
+
+}
+.header_btn{
+    border-radius: 48px;
+    background: #058B8C;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    padding: 5px 20px;
+    color: white;
+}
+.header_btn:hover{
+    color: white;
+}
+
+
+/*footer*/
+footer{
+    margin: auto;
+    max-width: 1250px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    
+}
+
+.column_three ul li{
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+  
+}
+.news_letter {
+    display: flex;
+    padding: 15px 0px;
+}
+
+.news_letter input {
+    width: 70%;
+   
+    border-radius: 341px;
+    border: 2px solid #058B8C;
+    height: 48px;
+    padding-left: 15px;
+}
+
+.news_letter button {
+    width: 23%;
+    margin-left: 1rem;
+    border-radius: 48px;
+    background: #058B8C;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 166.667% */
+    border: none;
+}
+
+.column_one{
+    display:grid;
+    gap: 30px;
+    padding: 30px;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; ;
+} 
+.column_two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 60px; /* Adjust the top margin as needed */
+}
+.column_two .grid-container1 .grid-item {
+    color: #8F8F8F; /* Set the default color */
+    transition: color 0.3s; /* Add a smooth transition for the color change */
+}
+
+.column_two .grid-container1 .grid-item:hover {
+    color: rgba(5, 139, 140, 1);
+    cursor: pointer;
+}
+
+
+    
+    
+
+
+.column_three {
+    display:grid;
+    /* grid-template-columns: 1fr ; */
+    gap: 40px;
+    padding: 40px;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-top: 60px; 
+} 
+.grid-container1 .grid-item{
+    gap: 29px;
+}
+/*Banner Section*/
+.page_width{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+}
+.banner_section{
+    padding: 50px 0px;
+    background:url("../assets/images/home/banner/bg_banner.svg") ;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.banner_inner_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+.banner_inner_section .banner_img{
+    padding: 20px; 
+   
+}
+.banner_inner_section .banner_img img{
+    border-radius: 50%;
+}
+.banner_inner_section .banner_content{
+    margin-top: 130px;
+}
+.banner_inner_section .banner_content small{
+    background: #058B8C; 
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 0px;
+    word-wrap: break-word;
+    padding: 5px 10px;
+    height: 40px;
+}
+.banner_inner_section .banner_content .intro{
+    margin-top: 10px;
+   
+    color: #1E1E1E;
+    font-size: 60px;
+    font-style: normal;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    /* word-wrap: break-word */
+
+}
+.banner_inner_section .banner_content h2{
+    margin-top: 10px;
+    /* // Home  */
+    /* color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.6px; */
+    color: #1E1E1E;
+font-size: 60px;
+font-family: Rubik;
+font-weight: 700;
+word-wrap: break-word
+}
+.banner_inner_section .banner_content h2 span{
+    color: #058B8C;;
+font-size: 60px;
+font-family: Rubik;
+font-weight: 700;
+word-wrap: break-word
+}
+.banner_inner_section .banner_content .description{
+   
+color: #1E1E1E;
+ font-size: 24px;
+ font-family: Rubik;
+ font-weight: 400;
+ line-height: 40px;
+ word-wrap: break-word
+}
+.banner_button .btn_1{
+    /* position: absolute;  */
+    background: #8D0F11;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.20), 3px 4px 10px rgba(0,0,0,0.20) inset;
+    border-radius: 48px;
+    border: none;
+      
+    color: white;
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    padding: 10px 20px;
+}
+.banner_button .btn_2{
+    border-radius: 48px; 
+    border: 2px #1E1E1E;
+    text-align: center;  
+    color: #1E1E1E solid; 
+    font-size: 18px; 
+    font-family: Rubik; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    word-wrap: break-word;
+    padding: 10px 20px;
+}
+.page_width2{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+}
+.banner_section2{
+    padding: 50px 0px;
+    background: url("../assets/images/home/elipse.png");
+    background-repeat: no-repeat;
+    background-position: left;
+   
+
+}
+.banner_inner_section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+.banner_section2 .banner_img2{
+    padding: 20px;
+    /* border-radius: 50%; */
+    
+}
+ .banner_inner_section2 .banner_img2 image {
+    border-radius: 50%;
+   
+}
+.banner_inner_section2 .banner_content2 h2{
+    margin-top: 150px;
+    /* // Home  */
+    /* color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.6px; */
+    color: #1E1E1E;
+font-size: 60px;
+font-family: Rubik;
+font-weight: 700;
+word-wrap: break-word;
+gap: 20px;
+}
+.banner_inner_section2 .banner_content2 h2 span{
+    color: #058B8C;;
+font-size: 60px;
+font-family: Rubik;
+font-weight: 700;
+word-wrap: break-word
+}
+.banner_inner_section2 .banner_content2 .description1{
+   
+  color: #1E1E1E;
+ font-size: 18px;
+ font-family: Rubik;
+ font-weight: 400;
+ line-height: 30px;
+ word-wrap: break-word;
+ word-wrap: break-word
+}
+.page_width3{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+}
+.banner_section3{
+    padding: 50px 0px;
+    background: url("../assets/images/home/elipse.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #058B8C;
+   
+
+}
+.banner_inner_section3{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+.banner_section3.banner_img3{
+    padding: 20px;
+    /* border-radius: 50%; */
+    
+}
+ .banner_inner_section3 .banner_img3 image {
+    border-radius: 50%;
+   
+}
+.banner_inner_section3 .banner_content3 h2{
+    margin-top: 120px;
+    /* // Home  */
+    /* color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.6px; */
+    color:white;
+font-size: 60px;
+font-family: Rubik;
+font-weight: 400;
+word-wrap: break-word;
+gap: 20px;
+}
+.banner_inner_section3 .banner_content3 h2 span{
+    color:white;
+font-size: 60px;
+font-family: Rubik;
+font-weight: 700;
+word-wrap: break-word
+}
+.banner_inner_section3 .banner_content3 .description2{
+    color: #FFF;
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word
+}
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+
+}
+.icons img{
+    width: 60%; height: 60%;
+     background: #F8F8F8; 
+     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+     border-radius: 300px
+}
+.emergency_contact{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+    background: #058B8C;
+  
+    
+}
+.emergency_contact h2{
+     background: #058B8C;
+
+    color: white;
+font-size: 60px;
+font-family: Rubik;
+font-weight: 700;
+text-align: center;
+
+}
+
+
+
