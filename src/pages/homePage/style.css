@@ -75,3 +75,49 @@ color: #1E1E1E;
 .service_card:hover .over_lay .content button{
     display: block;
 }
+.our_client{
+    padding: 50px 0px;
+}
+.our_client .header_content_clients{
+    text-align: center;
+
+}
+.our_client .header_content_clients p{
+    color: #1E1E1E;
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 30px;
+    
+    letter-spacing: 0em;
+}
+.client_card_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.client_card_grid .client_card{
+    background: white;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.10);
+    border-radius: 30px;
+    padding:20px
+
+}
+.client_card_grid .client_card .lower_content p{
+    color: #1E1E1E;
+    font-size: 20px;
+    font-family: Rubik;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+
+.client_card_grid .client_card .outer_content {
+    display: flex;
+    align-items: center;
+
+}
+.client_card_grid .client_card .outer_content .img img {
+   width:80px;
+   margin-right: 1rem;
+
+}
